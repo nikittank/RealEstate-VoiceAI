@@ -52,6 +52,8 @@ Multi-turn context enables quick refinement ("Show cheaper options", "Only resal
 
 ## 🏗️ System Architecture
 
+<img width="737" height="1359" alt="image" src="https://github.com/user-attachments/assets/920ddd55-79c4-4702-94a2-83f59f1cf353" />
+
 ### Offline Indexing Pipeline
 1. **Configuration Setup** - Read config.yaml for URLs and parameters
 2. **Content Fetching** - Crawl websites using requests + trafilatura
@@ -82,6 +84,8 @@ Multi-turn context enables quick refinement ("Show cheaper options", "Only resal
 | **TTS Generation** | 0.9 sec | MP3 audio ready |
 
 ## 🚀 Quick Start
+
+<img width="940" height="685" alt="image" src="https://github.com/user-attachments/assets/3e53e0fb-8ac9-47ee-8398-0956a55f7044" />
 
 ### Prerequisites
 - Python 3.8+
@@ -182,47 +186,3 @@ generation_model: "gemini-2.5-flash"
    - ✅ Bias monitoring and mitigation
    - ✅ Graceful error handling
 
-## 🔬 Research Contributions
-
-This project addresses key research gaps in voice-enabled real estate AI:
-
-1. **Integrated Voice + RAG Solutions** - Combines streaming STT, retrieval-augmented generation, and TTS
-2. **End-to-End Automation** - Automates appointment booking and lead qualification
-3. **Unified Information Sources** - Consolidates listings, FAQs, and documents in single vector database
-4. **Algorithmic Fairness** - Implements monitoring and transparent decision-making
-
-## 🌟 Significance
-
-- **Inclusivity**: Lowers barriers for non-literate and elderly users
-- **Efficiency**: Automates routine queries, reducing agent workload
-- **Scalability**: Vector search + LLM generation scales across catalogs
-- **User Experience**: Context-aware conversations without restating constraints
-
-## 🔮 Future Work
-
-- [ ] Accent-specific fine-tuning for regional dialects
-- [ ] Expanded CRM/calendar integrations
-- [ ] Multilingual support beyond English
-- [ ] Multimodal inputs (voice + text + images)
-- [ ] A/B testing for business impact measurement
-- [ ] Edge deployment for offline scenarios
-
-## 📚 References
-
-1. Garg, S. et al. (2021). "Transformer-based Speech Recognition for Indian English." IEEE Access.
-2. Chen, Y. et al. (2022). "Voice-enabled Chatbots with Contextual NLP." ACM TIIS.
-3. Li, H. et al. (2023). "RAG + Embedding-based Retrieval." Journal of Real Estate Technology.
-4. Amazon Alexa Team (2022). "Adversarial Noise Training for Urban Voice Assistants." INTERSPEECH.
-5. Microsoft AI (2023). "Context-aware Conversational Agents." ACL Proceedings.
-
-## 📄 License
-
-This project is part of an internship research study. Please contact the author for usage permissions.
-
-## 👨‍💻 Author
-
-**Internship Project** - Voice-Based Conversational AI for Real Estate
-
----
-
-*This project demonstrates the practical implementation of modern AI technologies in real estate, showcasing the potential of voice-first interfaces in transforming customer interactions.*
