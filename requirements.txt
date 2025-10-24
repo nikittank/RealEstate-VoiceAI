@@ -1,0 +1,17 @@
+# Core
+qdrant-client
+google-generativeai
+cerebras-cloud-sdk
+trafilatura
+beautifulsoup4
+requests
+tqdm
+sentence-transformers
+numpy
+
+# Audio / realtime
+pyaudio
+websocket-client
+
+# Utilities
+python-dotenv

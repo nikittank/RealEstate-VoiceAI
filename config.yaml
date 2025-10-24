@@ -1,0 +1,14 @@
+app:
+  qdrant_collection_name: "voice-agent"
+  start_urls:
+    - "https://raaryahousing.com/"
+    - "https://raaryahousing.com/properties/amoha.html"
+    - "https://raaryahousing.com/blog.html"
+    - "https://raaryahousing.com/properties/gokulampark.html"
+    - "https://raaryahousing.com/properties/rich.html"
+  chunking:
+    chunk_size: 800
+    chunk_overlap: 150
+
+streaming:
+  assembly_ws_base: "wss://streaming.assemblyai.com/v3/ws"
